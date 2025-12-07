@@ -1,0 +1,208 @@
+/* Custom CSS for Physical AI Humanoid Robotics Curriculum */
+
+:root {
+  --ifm-color-primary: #2e8555;
+  --ifm-color-primary-dark: #29784c;
+  --ifm-color-primary-darker: #277148;
+  --ifm-color-primary-darkest: #205d3b;
+  --ifm-color-primary-light: #33925d;
+  --ifm-color-primary-lighter: #359962;
+  --ifm-color-primary-lightest: #3cad6e;
+
+  /* Additional custom colors */
+  --ifm-color-secondary: #f0f8ff;
+  --ifm-card-background-color: #ffffff;
+  --ifm-card-border-radius: 12px;
+  --ifm-card-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --ifm-navbar-background-color: #ffffff;
+  --ifm-footer-background-color: #1f2937;
+}
+
+html[data-theme='dark'] {
+  --ifm-color-primary: #25c2d0;
+  --ifm-color-primary-dark: #21af8d;
+  --ifm-color-primary-darker: #1fa588;
+  --ifm-color-primary-darkest: #1a8870;
+  --ifm-color-primary-light: #29d5b0;
+  --ifm-color-primary-lighter: #32dfc5;
+  --ifm-color-primary-lightest: #4be8db;
+
+  /* Dark theme customizations */
+  --ifm-card-background-color: #1a1a1a;
+  --ifm-card-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  --ifm-navbar-background-color: #111827;
+  --ifm-footer-background-color: #111827;
+}
+
+/* Enhanced navbar styling */
+.navbar {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: var(--ifm-background-surface-color);
+}
+
+/* Enhanced sidebar styling */
+.menu {
+  border-right: 1px solid var(--ifm-toc-border-color);
+}
+
+/* Card-like styling for content sections */
+.container {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+/* Better code block styling */
+.docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.1);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+html[data-theme='dark'] .docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* Custom card component styling */
+.card {
+  border-radius: var(--ifm-card-border-radius);
+  box-shadow: var(--ifm-card-shadow);
+  border: 1px solid var(--ifm-color-emphasis-200);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+html[data-theme='dark'] .card {
+  border-color: var(--ifm-color-emphasis-300);
+}
+
+/* Better button styling */
+.button {
+  border-radius: 8px;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+/* Improved typography */
+.markdown h1,
+.markdown h2,
+.markdown h3,
+.markdown h4,
+.markdown h5,
+.markdown h6 {
+  font-weight: 600;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Better spacing for content */
+.markdown {
+  line-height: 1.7;
+}
+
+/* Enhanced footer styling */
+.footer {
+  background-color: var(--ifm-color-primary-darkest);
+  border-top: 1px solid var(--ifm-color-emphasis-300);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.footer__title {
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.footer__items {
+  margin-bottom: 0.5rem;
+}
+
+.footer__link-item {
+  color: #e0e0e0;
+  text-decoration: none;
+  padding: 0.25rem 0;
+  display: block;
+  transition: color 0.2s ease;
+}
+
+.footer__link-item:hover {
+  color: var(--ifm-color-primary-lighter);
+  text-decoration: none;
+}
+
+.footer__copyright {
+  text-align: center;
+  padding-top: 1.5rem;
+  margin-top: 1.5rem;
+  border-top: 1px solid var(--ifm-color-emphasis-300);
+  color: #e0e0e0;
+}
+
+/* Custom styling for curriculum modules */
+.curriculum-module {
+  padding: 1.5rem;
+  border-radius: var(--ifm-card-border-radius);
+  background-color: var(--ifm-card-background-color);
+  box-shadow: var(--ifm-card-shadow);
+  margin-bottom: 1.5rem;
+}
+
+/* Better image styling */
+img {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Enhanced logo styling */
+.navbar__logo img {
+  border-radius: 6px;
+  transition: transform 0.2s ease;
+}
+
+.navbar__logo img:hover {
+  transform: scale(1.05);
+}
+
+/* Improved table styling */
+.markdown table {
+  border-radius: var(--ifm-card-border-radius);
+  overflow: hidden;
+  box-shadow: var(--ifm-card-shadow);
+}
+
+.markdown table th,
+.markdown table td {
+  padding: 0.75rem 1rem;
+}
+
+.docusaurus-mt-lg {
+  margin-top: 2rem;
+}
+
+/* Custom banner for important notices */
+.admonition {
+  border-radius: var(--ifm-card-border-radius);
+  margin: 1.5rem 0;
+}
+
+/* Better search styling if using Algolia */
+.navbar__search-input {
+  border-radius: 8px;
+  border: 1px solid var(--ifm-color-emphasis-300);
+}
+
+/* Enhanced mobile responsiveness */
+@media (max-width: 996px) {
+  .navbar__items {
+    padding: 0 1rem;
+  }
+
+  .container {
+    padding: 0.5rem;
+  }
+}
