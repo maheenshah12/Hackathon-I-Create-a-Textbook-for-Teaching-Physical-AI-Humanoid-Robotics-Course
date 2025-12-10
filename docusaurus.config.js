@@ -90,55 +90,31 @@ const config = {
                 label: 'ROS2 Foundations',
                 to: '/docs/modules/ros2-foundations/intro',
               },
-              {
-                label: 'Digital Twin Simulation',
-                to: '/docs/modules/digital-twin-simulation/intro',
-              },
-              {
-                label: 'NVIDIA Isaac Perception',
-                to: '/docs/modules/nvidia-isaac-perception/intro',
-              },
-              {
-                label: 'VLA Pipelines',
-                to: '/docs/modules/vla-pipelines/intro',
-              },
-            ],
-          },
-          {
-            title: 'Resources',
-            items: [
-              {
-                label: 'Documentation',
-                to: '/docs/intro',
-              },
-              {
-                label: 'Tutorials',
-                to: '/docs/intro',
-              },
-              {
-                label: 'API Reference',
-                to: '/docs/intro',
-              },
             ],
           },
           {
             title: 'Community',
             items: [
               {
-                label: 'GitHub',
-                href: 'https://github.com/your-organization/physical-ai-humanoid-curriculum',
+                label: 'Stack Overflow',
+                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
               },
               {
                 label: 'Discord',
-                href: 'https://discord.gg/your-discord-invite',
+                href: 'https://discordapp.com/invite/docusaurus',
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/physicalai',
+                href: 'https://twitter.com/docusaurus',
               },
+            ],
+          },
+          {
+            title: 'More',
+            items: [
               {
-                label: 'LinkedIn',
-                href: 'https://linkedin.com/company/physical-ai',
+                label: 'GitHub',
+                href: 'https://github.com/facebook/docusaurus',
               },
             ],
           },
