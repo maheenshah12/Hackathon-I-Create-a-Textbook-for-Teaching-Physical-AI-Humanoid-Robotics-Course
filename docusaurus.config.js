@@ -14,15 +14,15 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-organization.github.io',
+  url: 'https://hackathon-1create-a-textbook-for-te.vercel.app',
   // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<organization-name>/'
-  baseUrl: '/physical-ai-humanoid-curriculum',
+  // For Vercel deployment, use '/'
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'your-organization', // Usually your GitHub org/user name.
-  projectName: 'physical-ai-humanoid-curriculum', // Usually your repo name.
+  organizationName: 'maheenshah12', // Usually your GitHub org/user name.
+  projectName: 'Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
