@@ -1,0 +1,161 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "intro",
+              "path": "/docs/intro",
+              "sidebar": "curriculumSidebar"
+            },
+            {
+              "id": "modules/digital-twin-simulation/chapter-1-gazebo-basics/index",
+              "path": "/docs/modules/digital-twin-simulation/chapter-1-gazebo-basics/",
+              "sidebar": "curriculumSidebar"
+            },
+            {
+              "id": "modules/digital-twin-simulation/chapter-2-unity-digital-twin/index",
+              "path": "/docs/modules/digital-twin-simulation/chapter-2-unity-digital-twin/",
+              "sidebar": "curriculumSidebar"
+            },
+            {
+              "id": "modules/digital-twin-simulation/chapter-3-advanced-sim/index",
+              "path": "/docs/modules/digital-twin-simulation/chapter-3-advanced-sim/",
+              "sidebar": "curriculumSidebar"
+            },
+            {
+              "id": "modules/digital-twin-simulation/intro",
+              "path": "/docs/modules/digital-twin-simulation/intro",
+              "sidebar": "curriculumSidebar"
+            },
+            {
+              "id": "modules/digital-twin-simulation/simulation-troubleshooting",
+              "path": "/docs/modules/digital-twin-simulation/simulation-troubleshooting"
+            },
+            {
+              "id": "modules/digital-twin-simulation/simulation-validation-notes",
+              "path": "/docs/modules/digital-twin-simulation/simulation-validation-notes"
+            },
+            {
+              "id": "modules/digital-twin-simulation/simulation-workflow-tutorial",
+              "path": "/docs/modules/digital-twin-simulation/simulation-workflow-tutorial"
+            },
+            {
+              "id": "modules/nvidia-isaac-perception/chapter-1-isaac-basics",
+              "path": "/docs/modules/nvidia-isaac-perception/chapter-1-isaac-basics",
+              "sidebar": "curriculumSidebar"
+            },
+            {
+              "id": "modules/nvidia-isaac-perception/chapter-2-vslam",
+              "path": "/docs/modules/nvidia-isaac-perception/chapter-2-vslam",
+              "sidebar": "curriculumSidebar"
+            },
+            {
+              "id": "modules/nvidia-isaac-perception/chapter-3-manipulation",
+              "path": "/docs/modules/nvidia-isaac-perception/chapter-3-manipulation",
+              "sidebar": "curriculumSidebar"
+            },
+            {
+              "id": "modules/nvidia-isaac-perception/intro",
+              "path": "/docs/modules/nvidia-isaac-perception/intro",
+              "sidebar": "curriculumSidebar"
+            },
+            {
+              "id": "modules/nvidia-isaac-perception/isaac-sim-tutorial-steps",
+              "path": "/docs/modules/nvidia-isaac-perception/isaac-sim-tutorial-steps"
+            },
+            {
+              "id": "modules/nvidia-isaac-perception/isaac-troubleshooting",
+              "path": "/docs/modules/nvidia-isaac-perception/isaac-troubleshooting"
+            },
+            {
+              "id": "modules/nvidia-isaac-perception/isaac-validation-notes",
+              "path": "/docs/modules/nvidia-isaac-perception/isaac-validation-notes"
+            },
+            {
+              "id": "modules/ros2-foundations/basic-ros2-tutorial-steps",
+              "path": "/docs/modules/ros2-foundations/basic-ros2-tutorial-steps"
+            },
+            {
+              "id": "modules/ros2-foundations/chapter-1-intro-ros2",
+              "path": "/docs/modules/ros2-foundations/chapter-1-intro-ros2",
+              "sidebar": "curriculumSidebar"
+            },
+            {
+              "id": "modules/ros2-foundations/chapter-2-ros2-nodes",
+              "path": "/docs/modules/ros2-foundations/chapter-2-ros2-nodes",
+              "sidebar": "curriculumSidebar"
+            },
+            {
+              "id": "modules/ros2-foundations/chapter-3-ros2-actions",
+              "path": "/docs/modules/ros2-foundations/chapter-3-ros2-actions",
+              "sidebar": "curriculumSidebar"
+            },
+            {
+              "id": "modules/ros2-foundations/intro",
+              "path": "/docs/modules/ros2-foundations/intro",
+              "sidebar": "curriculumSidebar"
+            },
+            {
+              "id": "modules/ros2-foundations/ros2-troubleshooting",
+              "path": "/docs/modules/ros2-foundations/ros2-troubleshooting"
+            },
+            {
+              "id": "modules/ros2-foundations/validation-notes",
+              "path": "/docs/modules/ros2-foundations/validation-notes"
+            },
+            {
+              "id": "modules/vla-pipelines/chapter-1-whisper-integration/index",
+              "path": "/docs/modules/vla-pipelines/chapter-1-whisper-integration/",
+              "sidebar": "curriculumSidebar"
+            },
+            {
+              "id": "modules/vla-pipelines/chapter-2-gpt-ros-bridge/index",
+              "path": "/docs/modules/vla-pipelines/chapter-2-gpt-ros-bridge/",
+              "sidebar": "curriculumSidebar"
+            },
+            {
+              "id": "modules/vla-pipelines/chapter-3-vla-workflows/index",
+              "path": "/docs/modules/vla-pipelines/chapter-3-vla-workflows/",
+              "sidebar": "curriculumSidebar"
+            },
+            {
+              "id": "modules/vla-pipelines/intro",
+              "path": "/docs/modules/vla-pipelines/intro",
+              "sidebar": "curriculumSidebar"
+            },
+            {
+              "id": "modules/vla-pipelines/vla-pipeline-tutorial",
+              "path": "/docs/modules/vla-pipelines/vla-pipeline-tutorial"
+            },
+            {
+              "id": "modules/vla-pipelines/vla-troubleshooting",
+              "path": "/docs/modules/vla-pipelines/vla-troubleshooting"
+            },
+            {
+              "id": "modules/vla-pipelines/vla-validation-notes",
+              "path": "/docs/modules/vla-pipelines/vla-validation-notes"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "curriculumSidebar": {
+              "link": {
+                "path": "/docs/intro",
+                "label": "intro"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

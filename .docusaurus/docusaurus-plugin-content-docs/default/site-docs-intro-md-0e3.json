@@ -1,0 +1,23 @@
+{
+  "unversionedId": "intro",
+  "id": "intro",
+  "title": "Physical AI Humanoid Robotics Curriculum",
+  "description": "Welcome to the Physical AI Humanoid Robotics Curriculum! This comprehensive guide teaches students how to bridge AI models with physical robots, specifically humanoids.",
+  "source": "@site/docs/intro.md",
+  "sourceDirName": ".",
+  "slug": "/intro",
+  "permalink": "/docs/intro",
+  "draft": false,
+  "editUrl": "https://github.com/maheenshah12/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course/docs/intro.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "curriculumSidebar",
+  "next": {
+    "title": "ROS2 Foundations",
+    "permalink": "/docs/modules/ros2-foundations/intro"
+  }
+}

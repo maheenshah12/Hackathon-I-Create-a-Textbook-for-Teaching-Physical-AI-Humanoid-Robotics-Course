@@ -1,0 +1,27 @@
+{
+  "unversionedId": "modules/digital-twin-simulation/chapter-2-unity-digital-twin/index",
+  "id": "modules/digital-twin-simulation/chapter-2-unity-digital-twin/index",
+  "title": "Chapter 2: Unity Digital Twin",
+  "description": "Overview",
+  "source": "@site/docs/modules/digital-twin-simulation/chapter-2-unity-digital-twin/index.md",
+  "sourceDirName": "modules/digital-twin-simulation/chapter-2-unity-digital-twin",
+  "slug": "/modules/digital-twin-simulation/chapter-2-unity-digital-twin/",
+  "permalink": "/docs/modules/digital-twin-simulation/chapter-2-unity-digital-twin/",
+  "draft": false,
+  "editUrl": "https://github.com/maheenshah12/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course/docs/modules/digital-twin-simulation/chapter-2-unity-digital-twin/index.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "curriculumSidebar",
+  "previous": {
+    "title": "Chapter 1: Gazebo Basics",
+    "permalink": "/docs/modules/digital-twin-simulation/chapter-1-gazebo-basics/"
+  },
+  "next": {
+    "title": "Chapter 3: Advanced Simulation",
+    "permalink": "/docs/modules/digital-twin-simulation/chapter-3-advanced-sim/"
+  }
+}

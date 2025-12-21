@@ -1,0 +1,18 @@
+{
+  "unversionedId": "modules/ros2-foundations/ros2-troubleshooting",
+  "id": "modules/ros2-foundations/ros2-troubleshooting",
+  "title": "ROS 2 Troubleshooting Guide",
+  "description": "Common Issues and Solutions",
+  "source": "@site/docs/modules/ros2-foundations/ros2-troubleshooting.md",
+  "sourceDirName": "modules/ros2-foundations",
+  "slug": "/modules/ros2-foundations/ros2-troubleshooting",
+  "permalink": "/docs/modules/ros2-foundations/ros2-troubleshooting",
+  "draft": false,
+  "editUrl": "https://github.com/maheenshah12/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course/docs/modules/ros2-foundations/ros2-troubleshooting.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  }
+}

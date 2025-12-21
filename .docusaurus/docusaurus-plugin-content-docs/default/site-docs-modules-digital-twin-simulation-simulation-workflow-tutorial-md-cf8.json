@@ -1,0 +1,18 @@
+{
+  "unversionedId": "modules/digital-twin-simulation/simulation-workflow-tutorial",
+  "id": "modules/digital-twin-simulation/simulation-workflow-tutorial",
+  "title": "Simulation Workflow Tutorial: Complete Digital Twin System",
+  "description": "Overview",
+  "source": "@site/docs/modules/digital-twin-simulation/simulation-workflow-tutorial.md",
+  "sourceDirName": "modules/digital-twin-simulation",
+  "slug": "/modules/digital-twin-simulation/simulation-workflow-tutorial",
+  "permalink": "/docs/modules/digital-twin-simulation/simulation-workflow-tutorial",
+  "draft": false,
+  "editUrl": "https://github.com/maheenshah12/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course/docs/modules/digital-twin-simulation/simulation-workflow-tutorial.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  }
+}

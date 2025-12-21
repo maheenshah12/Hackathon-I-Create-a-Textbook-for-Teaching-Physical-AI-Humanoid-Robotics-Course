@@ -1,0 +1,23 @@
+{
+  "unversionedId": "modules/vla-pipelines/chapter-3-vla-workflows/index",
+  "id": "modules/vla-pipelines/chapter-3-vla-workflows/index",
+  "title": "Chapter 3: VLA Workflows",
+  "description": "Overview",
+  "source": "@site/docs/modules/vla-pipelines/chapter-3-vla-workflows/index.md",
+  "sourceDirName": "modules/vla-pipelines/chapter-3-vla-workflows",
+  "slug": "/modules/vla-pipelines/chapter-3-vla-workflows/",
+  "permalink": "/docs/modules/vla-pipelines/chapter-3-vla-workflows/",
+  "draft": false,
+  "editUrl": "https://github.com/maheenshah12/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course/docs/modules/vla-pipelines/chapter-3-vla-workflows/index.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "curriculumSidebar",
+  "previous": {
+    "title": "Chapter 2: GPT-ROS Bridge",
+    "permalink": "/docs/modules/vla-pipelines/chapter-2-gpt-ros-bridge/"
+  }
+}

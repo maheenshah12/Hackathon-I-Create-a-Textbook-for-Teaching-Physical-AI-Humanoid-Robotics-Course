@@ -1,0 +1,808 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "label": "Next",
+          "banner": null,
+          "badge": false,
+          "noIndex": false,
+          "className": "docs-version-current",
+          "path": "/docs",
+          "tagsPath": "/docs/tags",
+          "editUrl": "https://github.com/maheenshah12/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course/docs",
+          "editUrlLocalized": "https://github.com/maheenshah12/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course/i18n/en/docusaurus-plugin-content-docs/current",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "C:\\Hackathon I Physical AI & Humanoid Robotics Textbook\\sidebars.js",
+          "contentPath": "C:\\Hackathon I Physical AI & Humanoid Robotics Textbook\\docs",
+          "contentPathLocalized": "C:\\Hackathon I Physical AI & Humanoid Robotics Textbook\\i18n\\en\\docusaurus-plugin-content-docs\\current",
+          "docs": [
+            {
+              "unversionedId": "intro",
+              "id": "intro",
+              "title": "Physical AI Humanoid Robotics Curriculum",
+              "description": "Welcome to the Physical AI Humanoid Robotics Curriculum! This comprehensive guide teaches students how to bridge AI models with physical robots, specifically humanoids.",
+              "source": "@site/docs/intro.md",
+              "sourceDirName": ".",
+              "slug": "/intro",
+              "permalink": "/docs/intro",
+              "draft": false,
+              "editUrl": "https://github.com/maheenshah12/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course/docs/intro.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "curriculumSidebar",
+              "next": {
+                "title": "ROS2 Foundations",
+                "permalink": "/docs/modules/ros2-foundations/intro"
+              }
+            },
+            {
+              "unversionedId": "modules/digital-twin-simulation/chapter-1-gazebo-basics/index",
+              "id": "modules/digital-twin-simulation/chapter-1-gazebo-basics/index",
+              "title": "Chapter 1: Gazebo Basics",
+              "description": "Overview",
+              "source": "@site/docs/modules/digital-twin-simulation/chapter-1-gazebo-basics/index.md",
+              "sourceDirName": "modules/digital-twin-simulation/chapter-1-gazebo-basics",
+              "slug": "/modules/digital-twin-simulation/chapter-1-gazebo-basics/",
+              "permalink": "/docs/modules/digital-twin-simulation/chapter-1-gazebo-basics/",
+              "draft": false,
+              "editUrl": "https://github.com/maheenshah12/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course/docs/modules/digital-twin-simulation/chapter-1-gazebo-basics/index.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "curriculumSidebar",
+              "previous": {
+                "title": "Digital Twin Simulation: Gazebo, Unity, and ROS 2 Integration",
+                "permalink": "/docs/modules/digital-twin-simulation/intro"
+              },
+              "next": {
+                "title": "Chapter 2: Unity Digital Twin",
+                "permalink": "/docs/modules/digital-twin-simulation/chapter-2-unity-digital-twin/"
+              }
+            },
+            {
+              "unversionedId": "modules/digital-twin-simulation/chapter-2-unity-digital-twin/index",
+              "id": "modules/digital-twin-simulation/chapter-2-unity-digital-twin/index",
+              "title": "Chapter 2: Unity Digital Twin",
+              "description": "Overview",
+              "source": "@site/docs/modules/digital-twin-simulation/chapter-2-unity-digital-twin/index.md",
+              "sourceDirName": "modules/digital-twin-simulation/chapter-2-unity-digital-twin",
+              "slug": "/modules/digital-twin-simulation/chapter-2-unity-digital-twin/",
+              "permalink": "/docs/modules/digital-twin-simulation/chapter-2-unity-digital-twin/",
+              "draft": false,
+              "editUrl": "https://github.com/maheenshah12/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course/docs/modules/digital-twin-simulation/chapter-2-unity-digital-twin/index.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "curriculumSidebar",
+              "previous": {
+                "title": "Chapter 1: Gazebo Basics",
+                "permalink": "/docs/modules/digital-twin-simulation/chapter-1-gazebo-basics/"
+              },
+              "next": {
+                "title": "Chapter 3: Advanced Simulation",
+                "permalink": "/docs/modules/digital-twin-simulation/chapter-3-advanced-sim/"
+              }
+            },
+            {
+              "unversionedId": "modules/digital-twin-simulation/chapter-3-advanced-sim/index",
+              "id": "modules/digital-twin-simulation/chapter-3-advanced-sim/index",
+              "title": "Chapter 3: Advanced Simulation",
+              "description": "Overview",
+              "source": "@site/docs/modules/digital-twin-simulation/chapter-3-advanced-sim/index.md",
+              "sourceDirName": "modules/digital-twin-simulation/chapter-3-advanced-sim",
+              "slug": "/modules/digital-twin-simulation/chapter-3-advanced-sim/",
+              "permalink": "/docs/modules/digital-twin-simulation/chapter-3-advanced-sim/",
+              "draft": false,
+              "editUrl": "https://github.com/maheenshah12/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course/docs/modules/digital-twin-simulation/chapter-3-advanced-sim/index.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "curriculumSidebar",
+              "previous": {
+                "title": "Chapter 2: Unity Digital Twin",
+                "permalink": "/docs/modules/digital-twin-simulation/chapter-2-unity-digital-twin/"
+              },
+              "next": {
+                "title": "NVIDIA Isaac Perception",
+                "permalink": "/docs/modules/nvidia-isaac-perception/intro"
+              }
+            },
+            {
+              "unversionedId": "modules/digital-twin-simulation/intro",
+              "id": "modules/digital-twin-simulation/intro",
+              "title": "Digital Twin Simulation: Gazebo, Unity, and ROS 2 Integration",
+              "description": "Overview",
+              "source": "@site/docs/modules/digital-twin-simulation/intro.md",
+              "sourceDirName": "modules/digital-twin-simulation",
+              "slug": "/modules/digital-twin-simulation/intro",
+              "permalink": "/docs/modules/digital-twin-simulation/intro",
+              "draft": false,
+              "editUrl": "https://github.com/maheenshah12/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course/docs/modules/digital-twin-simulation/intro.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 8,
+              "frontMatter": {
+                "sidebar_position": 8
+              },
+              "sidebar": "curriculumSidebar",
+              "previous": {
+                "title": "Chapter 3: ROS 2 Actions",
+                "permalink": "/docs/modules/ros2-foundations/chapter-3-ros2-actions"
+              },
+              "next": {
+                "title": "Chapter 1: Gazebo Basics",
+                "permalink": "/docs/modules/digital-twin-simulation/chapter-1-gazebo-basics/"
+              }
+            },
+            {
+              "unversionedId": "modules/digital-twin-simulation/simulation-troubleshooting",
+              "id": "modules/digital-twin-simulation/simulation-troubleshooting",
+              "title": "Simulation Troubleshooting Guide",
+              "description": "Overview",
+              "source": "@site/docs/modules/digital-twin-simulation/simulation-troubleshooting.md",
+              "sourceDirName": "modules/digital-twin-simulation",
+              "slug": "/modules/digital-twin-simulation/simulation-troubleshooting",
+              "permalink": "/docs/modules/digital-twin-simulation/simulation-troubleshooting",
+              "draft": false,
+              "editUrl": "https://github.com/maheenshah12/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course/docs/modules/digital-twin-simulation/simulation-troubleshooting.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5
+              }
+            },
+            {
+              "unversionedId": "modules/digital-twin-simulation/simulation-validation-notes",
+              "id": "modules/digital-twin-simulation/simulation-validation-notes",
+              "title": "Validation Notes: Simulation Code Examples",
+              "description": "Objective",
+              "source": "@site/docs/modules/digital-twin-simulation/simulation-validation-notes.md",
+              "sourceDirName": "modules/digital-twin-simulation",
+              "slug": "/modules/digital-twin-simulation/simulation-validation-notes",
+              "permalink": "/docs/modules/digital-twin-simulation/simulation-validation-notes",
+              "draft": false,
+              "editUrl": "https://github.com/maheenshah12/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course/docs/modules/digital-twin-simulation/simulation-validation-notes.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {}
+            },
+            {
+              "unversionedId": "modules/digital-twin-simulation/simulation-workflow-tutorial",
+              "id": "modules/digital-twin-simulation/simulation-workflow-tutorial",
+              "title": "Simulation Workflow Tutorial: Complete Digital Twin System",
+              "description": "Overview",
+              "source": "@site/docs/modules/digital-twin-simulation/simulation-workflow-tutorial.md",
+              "sourceDirName": "modules/digital-twin-simulation",
+              "slug": "/modules/digital-twin-simulation/simulation-workflow-tutorial",
+              "permalink": "/docs/modules/digital-twin-simulation/simulation-workflow-tutorial",
+              "draft": false,
+              "editUrl": "https://github.com/maheenshah12/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course/docs/modules/digital-twin-simulation/simulation-workflow-tutorial.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              }
+            },
+            {
+              "unversionedId": "modules/nvidia-isaac-perception/chapter-1-isaac-basics",
+              "id": "modules/nvidia-isaac-perception/chapter-1-isaac-basics",
+              "title": "Chapter 1: Isaac Sim Basics",
+              "description": "Objective",
+              "source": "@site/docs/modules/nvidia-isaac-perception/chapter-1-isaac-basics.md",
+              "sourceDirName": "modules/nvidia-isaac-perception",
+              "slug": "/modules/nvidia-isaac-perception/chapter-1-isaac-basics",
+              "permalink": "/docs/modules/nvidia-isaac-perception/chapter-1-isaac-basics",
+              "draft": false,
+              "editUrl": "https://github.com/maheenshah12/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course/docs/modules/nvidia-isaac-perception/chapter-1-isaac-basics.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 7,
+              "frontMatter": {
+                "sidebar_position": 7
+              },
+              "sidebar": "curriculumSidebar",
+              "previous": {
+                "title": "NVIDIA Isaac Perception",
+                "permalink": "/docs/modules/nvidia-isaac-perception/intro"
+              },
+              "next": {
+                "title": "Chapter 2: Visual Simultaneous Localization and Mapping (VSLAM)",
+                "permalink": "/docs/modules/nvidia-isaac-perception/chapter-2-vslam"
+              }
+            },
+            {
+              "unversionedId": "modules/nvidia-isaac-perception/chapter-2-vslam",
+              "id": "modules/nvidia-isaac-perception/chapter-2-vslam",
+              "title": "Chapter 2: Visual Simultaneous Localization and Mapping (VSLAM)",
+              "description": "Objective",
+              "source": "@site/docs/modules/nvidia-isaac-perception/chapter-2-vslam.md",
+              "sourceDirName": "modules/nvidia-isaac-perception",
+              "slug": "/modules/nvidia-isaac-perception/chapter-2-vslam",
+              "permalink": "/docs/modules/nvidia-isaac-perception/chapter-2-vslam",
+              "draft": false,
+              "editUrl": "https://github.com/maheenshah12/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course/docs/modules/nvidia-isaac-perception/chapter-2-vslam.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 8,
+              "frontMatter": {
+                "sidebar_position": 8
+              },
+              "sidebar": "curriculumSidebar",
+              "previous": {
+                "title": "Chapter 1: Isaac Sim Basics",
+                "permalink": "/docs/modules/nvidia-isaac-perception/chapter-1-isaac-basics"
+              },
+              "next": {
+                "title": "Chapter 3: Manipulation",
+                "permalink": "/docs/modules/nvidia-isaac-perception/chapter-3-manipulation"
+              }
+            },
+            {
+              "unversionedId": "modules/nvidia-isaac-perception/chapter-3-manipulation",
+              "id": "modules/nvidia-isaac-perception/chapter-3-manipulation",
+              "title": "Chapter 3: Manipulation",
+              "description": "Objective",
+              "source": "@site/docs/modules/nvidia-isaac-perception/chapter-3-manipulation.md",
+              "sourceDirName": "modules/nvidia-isaac-perception",
+              "slug": "/modules/nvidia-isaac-perception/chapter-3-manipulation",
+              "permalink": "/docs/modules/nvidia-isaac-perception/chapter-3-manipulation",
+              "draft": false,
+              "editUrl": "https://github.com/maheenshah12/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course/docs/modules/nvidia-isaac-perception/chapter-3-manipulation.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 9,
+              "frontMatter": {
+                "sidebar_position": 9
+              },
+              "sidebar": "curriculumSidebar",
+              "previous": {
+                "title": "Chapter 2: Visual Simultaneous Localization and Mapping (VSLAM)",
+                "permalink": "/docs/modules/nvidia-isaac-perception/chapter-2-vslam"
+              },
+              "next": {
+                "title": "VLA Pipelines: Vision-Language-Action Systems",
+                "permalink": "/docs/modules/vla-pipelines/intro"
+              }
+            },
+            {
+              "unversionedId": "modules/nvidia-isaac-perception/intro",
+              "id": "modules/nvidia-isaac-perception/intro",
+              "title": "NVIDIA Isaac Perception",
+              "description": "Overview",
+              "source": "@site/docs/modules/nvidia-isaac-perception/intro.md",
+              "sourceDirName": "modules/nvidia-isaac-perception",
+              "slug": "/modules/nvidia-isaac-perception/intro",
+              "permalink": "/docs/modules/nvidia-isaac-perception/intro",
+              "draft": false,
+              "editUrl": "https://github.com/maheenshah12/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course/docs/modules/nvidia-isaac-perception/intro.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 6,
+              "frontMatter": {
+                "sidebar_position": 6
+              },
+              "sidebar": "curriculumSidebar",
+              "previous": {
+                "title": "Chapter 3: Advanced Simulation",
+                "permalink": "/docs/modules/digital-twin-simulation/chapter-3-advanced-sim/"
+              },
+              "next": {
+                "title": "Chapter 1: Isaac Sim Basics",
+                "permalink": "/docs/modules/nvidia-isaac-perception/chapter-1-isaac-basics"
+              }
+            },
+            {
+              "unversionedId": "modules/nvidia-isaac-perception/isaac-sim-tutorial-steps",
+              "id": "modules/nvidia-isaac-perception/isaac-sim-tutorial-steps",
+              "title": "Isaac Sim Tutorial Steps: Setup and Basic Perception",
+              "description": "Objective",
+              "source": "@site/docs/modules/nvidia-isaac-perception/isaac-sim-tutorial-steps.md",
+              "sourceDirName": "modules/nvidia-isaac-perception",
+              "slug": "/modules/nvidia-isaac-perception/isaac-sim-tutorial-steps",
+              "permalink": "/docs/modules/nvidia-isaac-perception/isaac-sim-tutorial-steps",
+              "draft": false,
+              "editUrl": "https://github.com/maheenshah12/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course/docs/modules/nvidia-isaac-perception/isaac-sim-tutorial-steps.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 10,
+              "frontMatter": {
+                "sidebar_position": 10
+              }
+            },
+            {
+              "unversionedId": "modules/nvidia-isaac-perception/isaac-troubleshooting",
+              "id": "modules/nvidia-isaac-perception/isaac-troubleshooting",
+              "title": "Isaac Sim Troubleshooting Guide",
+              "description": "Common Issues and Solutions",
+              "source": "@site/docs/modules/nvidia-isaac-perception/isaac-troubleshooting.md",
+              "sourceDirName": "modules/nvidia-isaac-perception",
+              "slug": "/modules/nvidia-isaac-perception/isaac-troubleshooting",
+              "permalink": "/docs/modules/nvidia-isaac-perception/isaac-troubleshooting",
+              "draft": false,
+              "editUrl": "https://github.com/maheenshah12/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course/docs/modules/nvidia-isaac-perception/isaac-troubleshooting.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 11,
+              "frontMatter": {
+                "sidebar_position": 11
+              }
+            },
+            {
+              "unversionedId": "modules/nvidia-isaac-perception/isaac-validation-notes",
+              "id": "modules/nvidia-isaac-perception/isaac-validation-notes",
+              "title": "Validation Notes: Isaac Sim Code Examples",
+              "description": "Objective",
+              "source": "@site/docs/modules/nvidia-isaac-perception/isaac-validation-notes.md",
+              "sourceDirName": "modules/nvidia-isaac-perception",
+              "slug": "/modules/nvidia-isaac-perception/isaac-validation-notes",
+              "permalink": "/docs/modules/nvidia-isaac-perception/isaac-validation-notes",
+              "draft": false,
+              "editUrl": "https://github.com/maheenshah12/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course/docs/modules/nvidia-isaac-perception/isaac-validation-notes.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {}
+            },
+            {
+              "unversionedId": "modules/ros2-foundations/basic-ros2-tutorial-steps",
+              "id": "modules/ros2-foundations/basic-ros2-tutorial-steps",
+              "title": "Basic ROS 2 Tutorial Steps",
+              "description": "Objective",
+              "source": "@site/docs/modules/ros2-foundations/basic-ros2-tutorial-steps.md",
+              "sourceDirName": "modules/ros2-foundations",
+              "slug": "/modules/ros2-foundations/basic-ros2-tutorial-steps",
+              "permalink": "/docs/modules/ros2-foundations/basic-ros2-tutorial-steps",
+              "draft": false,
+              "editUrl": "https://github.com/maheenshah12/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course/docs/modules/ros2-foundations/basic-ros2-tutorial-steps.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5
+              }
+            },
+            {
+              "unversionedId": "modules/ros2-foundations/chapter-1-intro-ros2",
+              "id": "modules/ros2-foundations/chapter-1-intro-ros2",
+              "title": "Chapter 1: Introduction to ROS 2",
+              "description": "Objective",
+              "source": "@site/docs/modules/ros2-foundations/chapter-1-intro-ros2.md",
+              "sourceDirName": "modules/ros2-foundations",
+              "slug": "/modules/ros2-foundations/chapter-1-intro-ros2",
+              "permalink": "/docs/modules/ros2-foundations/chapter-1-intro-ros2",
+              "draft": false,
+              "editUrl": "https://github.com/maheenshah12/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course/docs/modules/ros2-foundations/chapter-1-intro-ros2.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "curriculumSidebar",
+              "previous": {
+                "title": "ROS2 Foundations",
+                "permalink": "/docs/modules/ros2-foundations/intro"
+              },
+              "next": {
+                "title": "Chapter 2: ROS 2 Nodes",
+                "permalink": "/docs/modules/ros2-foundations/chapter-2-ros2-nodes"
+              }
+            },
+            {
+              "unversionedId": "modules/ros2-foundations/chapter-2-ros2-nodes",
+              "id": "modules/ros2-foundations/chapter-2-ros2-nodes",
+              "title": "Chapter 2: ROS 2 Nodes",
+              "description": "Objective",
+              "source": "@site/docs/modules/ros2-foundations/chapter-2-ros2-nodes.md",
+              "sourceDirName": "modules/ros2-foundations",
+              "slug": "/modules/ros2-foundations/chapter-2-ros2-nodes",
+              "permalink": "/docs/modules/ros2-foundations/chapter-2-ros2-nodes",
+              "draft": false,
+              "editUrl": "https://github.com/maheenshah12/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course/docs/modules/ros2-foundations/chapter-2-ros2-nodes.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "curriculumSidebar",
+              "previous": {
+                "title": "Chapter 1: Introduction to ROS 2",
+                "permalink": "/docs/modules/ros2-foundations/chapter-1-intro-ros2"
+              },
+              "next": {
+                "title": "Chapter 3: ROS 2 Actions",
+                "permalink": "/docs/modules/ros2-foundations/chapter-3-ros2-actions"
+              }
+            },
+            {
+              "unversionedId": "modules/ros2-foundations/chapter-3-ros2-actions",
+              "id": "modules/ros2-foundations/chapter-3-ros2-actions",
+              "title": "Chapter 3: ROS 2 Actions",
+              "description": "Objective",
+              "source": "@site/docs/modules/ros2-foundations/chapter-3-ros2-actions.md",
+              "sourceDirName": "modules/ros2-foundations",
+              "slug": "/modules/ros2-foundations/chapter-3-ros2-actions",
+              "permalink": "/docs/modules/ros2-foundations/chapter-3-ros2-actions",
+              "draft": false,
+              "editUrl": "https://github.com/maheenshah12/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course/docs/modules/ros2-foundations/chapter-3-ros2-actions.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "curriculumSidebar",
+              "previous": {
+                "title": "Chapter 2: ROS 2 Nodes",
+                "permalink": "/docs/modules/ros2-foundations/chapter-2-ros2-nodes"
+              },
+              "next": {
+                "title": "Digital Twin Simulation: Gazebo, Unity, and ROS 2 Integration",
+                "permalink": "/docs/modules/digital-twin-simulation/intro"
+              }
+            },
+            {
+              "unversionedId": "modules/ros2-foundations/intro",
+              "id": "modules/ros2-foundations/intro",
+              "title": "ROS2 Foundations",
+              "description": "Overview",
+              "source": "@site/docs/modules/ros2-foundations/intro.md",
+              "sourceDirName": "modules/ros2-foundations",
+              "slug": "/modules/ros2-foundations/intro",
+              "permalink": "/docs/modules/ros2-foundations/intro",
+              "draft": false,
+              "editUrl": "https://github.com/maheenshah12/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course/docs/modules/ros2-foundations/intro.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "curriculumSidebar",
+              "previous": {
+                "title": "Physical AI Humanoid Robotics Curriculum",
+                "permalink": "/docs/intro"
+              },
+              "next": {
+                "title": "Chapter 1: Introduction to ROS 2",
+                "permalink": "/docs/modules/ros2-foundations/chapter-1-intro-ros2"
+              }
+            },
+            {
+              "unversionedId": "modules/ros2-foundations/ros2-troubleshooting",
+              "id": "modules/ros2-foundations/ros2-troubleshooting",
+              "title": "ROS 2 Troubleshooting Guide",
+              "description": "Common Issues and Solutions",
+              "source": "@site/docs/modules/ros2-foundations/ros2-troubleshooting.md",
+              "sourceDirName": "modules/ros2-foundations",
+              "slug": "/modules/ros2-foundations/ros2-troubleshooting",
+              "permalink": "/docs/modules/ros2-foundations/ros2-troubleshooting",
+              "draft": false,
+              "editUrl": "https://github.com/maheenshah12/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course/docs/modules/ros2-foundations/ros2-troubleshooting.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 6,
+              "frontMatter": {
+                "sidebar_position": 6
+              }
+            },
+            {
+              "unversionedId": "modules/ros2-foundations/validation-notes",
+              "id": "modules/ros2-foundations/validation-notes",
+              "title": "Validation Notes: ROS 2 Code Examples",
+              "description": "Objective",
+              "source": "@site/docs/modules/ros2-foundations/validation-notes.md",
+              "sourceDirName": "modules/ros2-foundations",
+              "slug": "/modules/ros2-foundations/validation-notes",
+              "permalink": "/docs/modules/ros2-foundations/validation-notes",
+              "draft": false,
+              "editUrl": "https://github.com/maheenshah12/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course/docs/modules/ros2-foundations/validation-notes.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {}
+            },
+            {
+              "unversionedId": "modules/vla-pipelines/chapter-1-whisper-integration/index",
+              "id": "modules/vla-pipelines/chapter-1-whisper-integration/index",
+              "title": "Chapter 1: Whisper Integration",
+              "description": "Overview",
+              "source": "@site/docs/modules/vla-pipelines/chapter-1-whisper-integration/index.md",
+              "sourceDirName": "modules/vla-pipelines/chapter-1-whisper-integration",
+              "slug": "/modules/vla-pipelines/chapter-1-whisper-integration/",
+              "permalink": "/docs/modules/vla-pipelines/chapter-1-whisper-integration/",
+              "draft": false,
+              "editUrl": "https://github.com/maheenshah12/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course/docs/modules/vla-pipelines/chapter-1-whisper-integration/index.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "curriculumSidebar",
+              "previous": {
+                "title": "VLA Pipelines: Vision-Language-Action Systems",
+                "permalink": "/docs/modules/vla-pipelines/intro"
+              },
+              "next": {
+                "title": "Chapter 2: GPT-ROS Bridge",
+                "permalink": "/docs/modules/vla-pipelines/chapter-2-gpt-ros-bridge/"
+              }
+            },
+            {
+              "unversionedId": "modules/vla-pipelines/chapter-2-gpt-ros-bridge/index",
+              "id": "modules/vla-pipelines/chapter-2-gpt-ros-bridge/index",
+              "title": "Chapter 2: GPT-ROS Bridge",
+              "description": "Overview",
+              "source": "@site/docs/modules/vla-pipelines/chapter-2-gpt-ros-bridge/index.md",
+              "sourceDirName": "modules/vla-pipelines/chapter-2-gpt-ros-bridge",
+              "slug": "/modules/vla-pipelines/chapter-2-gpt-ros-bridge/",
+              "permalink": "/docs/modules/vla-pipelines/chapter-2-gpt-ros-bridge/",
+              "draft": false,
+              "editUrl": "https://github.com/maheenshah12/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course/docs/modules/vla-pipelines/chapter-2-gpt-ros-bridge/index.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "curriculumSidebar",
+              "previous": {
+                "title": "Chapter 1: Whisper Integration",
+                "permalink": "/docs/modules/vla-pipelines/chapter-1-whisper-integration/"
+              },
+              "next": {
+                "title": "Chapter 3: VLA Workflows",
+                "permalink": "/docs/modules/vla-pipelines/chapter-3-vla-workflows/"
+              }
+            },
+            {
+              "unversionedId": "modules/vla-pipelines/chapter-3-vla-workflows/index",
+              "id": "modules/vla-pipelines/chapter-3-vla-workflows/index",
+              "title": "Chapter 3: VLA Workflows",
+              "description": "Overview",
+              "source": "@site/docs/modules/vla-pipelines/chapter-3-vla-workflows/index.md",
+              "sourceDirName": "modules/vla-pipelines/chapter-3-vla-workflows",
+              "slug": "/modules/vla-pipelines/chapter-3-vla-workflows/",
+              "permalink": "/docs/modules/vla-pipelines/chapter-3-vla-workflows/",
+              "draft": false,
+              "editUrl": "https://github.com/maheenshah12/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course/docs/modules/vla-pipelines/chapter-3-vla-workflows/index.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "curriculumSidebar",
+              "previous": {
+                "title": "Chapter 2: GPT-ROS Bridge",
+                "permalink": "/docs/modules/vla-pipelines/chapter-2-gpt-ros-bridge/"
+              }
+            },
+            {
+              "unversionedId": "modules/vla-pipelines/intro",
+              "id": "modules/vla-pipelines/intro",
+              "title": "VLA Pipelines: Vision-Language-Action Systems",
+              "description": "Overview",
+              "source": "@site/docs/modules/vla-pipelines/intro.md",
+              "sourceDirName": "modules/vla-pipelines",
+              "slug": "/modules/vla-pipelines/intro",
+              "permalink": "/docs/modules/vla-pipelines/intro",
+              "draft": false,
+              "editUrl": "https://github.com/maheenshah12/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course/docs/modules/vla-pipelines/intro.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 7,
+              "frontMatter": {
+                "sidebar_position": 7
+              },
+              "sidebar": "curriculumSidebar",
+              "previous": {
+                "title": "Chapter 3: Manipulation",
+                "permalink": "/docs/modules/nvidia-isaac-perception/chapter-3-manipulation"
+              },
+              "next": {
+                "title": "Chapter 1: Whisper Integration",
+                "permalink": "/docs/modules/vla-pipelines/chapter-1-whisper-integration/"
+              }
+            },
+            {
+              "unversionedId": "modules/vla-pipelines/vla-pipeline-tutorial",
+              "id": "modules/vla-pipelines/vla-pipeline-tutorial",
+              "title": "VLA Pipeline Tutorial: Complete Voice-Controlled Robot",
+              "description": "Overview",
+              "source": "@site/docs/modules/vla-pipelines/vla-pipeline-tutorial.md",
+              "sourceDirName": "modules/vla-pipelines",
+              "slug": "/modules/vla-pipelines/vla-pipeline-tutorial",
+              "permalink": "/docs/modules/vla-pipelines/vla-pipeline-tutorial",
+              "draft": false,
+              "editUrl": "https://github.com/maheenshah12/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course/docs/modules/vla-pipelines/vla-pipeline-tutorial.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              }
+            },
+            {
+              "unversionedId": "modules/vla-pipelines/vla-troubleshooting",
+              "id": "modules/vla-pipelines/vla-troubleshooting",
+              "title": "VLA Pipelines Troubleshooting Guide",
+              "description": "Overview",
+              "source": "@site/docs/modules/vla-pipelines/vla-troubleshooting.md",
+              "sourceDirName": "modules/vla-pipelines",
+              "slug": "/modules/vla-pipelines/vla-troubleshooting",
+              "permalink": "/docs/modules/vla-pipelines/vla-troubleshooting",
+              "draft": false,
+              "editUrl": "https://github.com/maheenshah12/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course/docs/modules/vla-pipelines/vla-troubleshooting.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5
+              }
+            },
+            {
+              "unversionedId": "modules/vla-pipelines/vla-validation-notes",
+              "id": "modules/vla-pipelines/vla-validation-notes",
+              "title": "Validation Notes: VLA Pipeline Code Examples",
+              "description": "Objective",
+              "source": "@site/docs/modules/vla-pipelines/vla-validation-notes.md",
+              "sourceDirName": "modules/vla-pipelines",
+              "slug": "/modules/vla-pipelines/vla-validation-notes",
+              "permalink": "/docs/modules/vla-pipelines/vla-validation-notes",
+              "draft": false,
+              "editUrl": "https://github.com/maheenshah12/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course/docs/modules/vla-pipelines/vla-validation-notes.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {}
+            }
+          ],
+          "drafts": [],
+          "sidebars": {
+            "curriculumSidebar": [
+              {
+                "type": "category",
+                "label": "Getting Started",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "intro"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "ROS2 Foundations",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "modules/ros2-foundations/intro"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "modules/ros2-foundations/chapter-1-intro-ros2"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "modules/ros2-foundations/chapter-2-ros2-nodes"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "modules/ros2-foundations/chapter-3-ros2-actions"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Digital Twin Simulation",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "modules/digital-twin-simulation/intro"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "modules/digital-twin-simulation/chapter-1-gazebo-basics/index"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "modules/digital-twin-simulation/chapter-2-unity-digital-twin/index"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "modules/digital-twin-simulation/chapter-3-advanced-sim/index"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "NVIDIA Isaac Perception",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "modules/nvidia-isaac-perception/intro"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "modules/nvidia-isaac-perception/chapter-1-isaac-basics"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "modules/nvidia-isaac-perception/chapter-2-vslam"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "modules/nvidia-isaac-perception/chapter-3-manipulation"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "VLA Pipelines",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "modules/vla-pipelines/intro"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "modules/vla-pipelines/chapter-1-whisper-integration/index"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "modules/vla-pipelines/chapter-2-gpt-ros-bridge/index"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "modules/vla-pipelines/chapter-3-vla-workflows/index"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": [
+      {
+        "type": "jsx",
+        "permalink": "/",
+        "source": "@site/src/pages/index.js"
+      }
+    ]
+  },
+  "docusaurus-plugin-debug": {},
+  "docusaurus-theme-classic": {},
+  "docusaurus-bootstrap-plugin": {},
+  "docusaurus-mdx-fallback-plugin": {}
+}

@@ -1,0 +1,76 @@
+# This file would contain API contracts if the feature had web APIs
+# For the RAG pipeline embedding system, the main interface is the Python functions
+# rather than HTTP APIs, so this contract focuses on the internal function interfaces
+
+openapi: 3.0.0
+info:
+  title: RAG Pipeline Embedding System
+  version: 1.0.0
+  description: Internal API contract for RAG pipeline functions
+
+paths: {}
+components:
+  schemas:
+    DocumentChunk:
+      type: object
+      properties:
+        id:
+          type: string
+          description: Unique identifier for the chunk
+        content:
+          type: string
+          description: Text content of the chunk
+        embedding:
+          type: array
+          items:
+            type: number
+          description: Vector representation of the content
+        source_url:
+          type: string
+          description: URL where the content was extracted from
+        metadata:
+          type: object
+          description: Additional information about the chunk
+          properties:
+            title:
+              type: string
+              description: Page/chapter title
+            section:
+              type: string
+              description: Section within the document
+            position:
+              type: integer
+              description: Position of the chunk in the original document
+        created_at:
+          type: string
+          format: date-time
+          description: Timestamp when the chunk was created
+
+    EmbeddingRequest:
+      type: object
+      properties:
+        texts:
+          type: array
+          items:
+            type: string
+          description: Array of text strings to embed
+        model:
+          type: string
+          description: Embedding model to use
+
+    EmbeddingResponse:
+      type: object
+      properties:
+        embeddings:
+          type: array
+          items:
+            type: array
+            items:
+              type: number
+          description: Array of embedding vectors
+        model:
+          type: string
+          description: Model used for embedding
+        usage:
+          type: object
+          description: Token usage information

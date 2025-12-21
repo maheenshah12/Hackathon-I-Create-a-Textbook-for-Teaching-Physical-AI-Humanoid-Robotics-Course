@@ -1,0 +1,15 @@
+{
+  "unversionedId": "modules/digital-twin-simulation/simulation-validation-notes",
+  "id": "modules/digital-twin-simulation/simulation-validation-notes",
+  "title": "Validation Notes: Simulation Code Examples",
+  "description": "Objective",
+  "source": "@site/docs/modules/digital-twin-simulation/simulation-validation-notes.md",
+  "sourceDirName": "modules/digital-twin-simulation",
+  "slug": "/modules/digital-twin-simulation/simulation-validation-notes",
+  "permalink": "/docs/modules/digital-twin-simulation/simulation-validation-notes",
+  "draft": false,
+  "editUrl": "https://github.com/maheenshah12/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course/docs/modules/digital-twin-simulation/simulation-validation-notes.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

@@ -1,0 +1,18 @@
+{
+  "unversionedId": "modules/nvidia-isaac-perception/isaac-sim-tutorial-steps",
+  "id": "modules/nvidia-isaac-perception/isaac-sim-tutorial-steps",
+  "title": "Isaac Sim Tutorial Steps: Setup and Basic Perception",
+  "description": "Objective",
+  "source": "@site/docs/modules/nvidia-isaac-perception/isaac-sim-tutorial-steps.md",
+  "sourceDirName": "modules/nvidia-isaac-perception",
+  "slug": "/modules/nvidia-isaac-perception/isaac-sim-tutorial-steps",
+  "permalink": "/docs/modules/nvidia-isaac-perception/isaac-sim-tutorial-steps",
+  "draft": false,
+  "editUrl": "https://github.com/maheenshah12/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course/docs/modules/nvidia-isaac-perception/isaac-sim-tutorial-steps.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {
+    "sidebar_position": 10
+  }
+}

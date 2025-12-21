@@ -1,0 +1,15 @@
+{
+  "unversionedId": "modules/nvidia-isaac-perception/isaac-validation-notes",
+  "id": "modules/nvidia-isaac-perception/isaac-validation-notes",
+  "title": "Validation Notes: Isaac Sim Code Examples",
+  "description": "Objective",
+  "source": "@site/docs/modules/nvidia-isaac-perception/isaac-validation-notes.md",
+  "sourceDirName": "modules/nvidia-isaac-perception",
+  "slug": "/modules/nvidia-isaac-perception/isaac-validation-notes",
+  "permalink": "/docs/modules/nvidia-isaac-perception/isaac-validation-notes",
+  "draft": false,
+  "editUrl": "https://github.com/maheenshah12/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course/docs/modules/nvidia-isaac-perception/isaac-validation-notes.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

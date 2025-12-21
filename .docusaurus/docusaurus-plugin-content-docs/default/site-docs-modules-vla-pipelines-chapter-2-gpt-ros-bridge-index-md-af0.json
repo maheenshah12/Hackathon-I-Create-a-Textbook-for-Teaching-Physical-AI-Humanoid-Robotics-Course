@@ -1,0 +1,27 @@
+{
+  "unversionedId": "modules/vla-pipelines/chapter-2-gpt-ros-bridge/index",
+  "id": "modules/vla-pipelines/chapter-2-gpt-ros-bridge/index",
+  "title": "Chapter 2: GPT-ROS Bridge",
+  "description": "Overview",
+  "source": "@site/docs/modules/vla-pipelines/chapter-2-gpt-ros-bridge/index.md",
+  "sourceDirName": "modules/vla-pipelines/chapter-2-gpt-ros-bridge",
+  "slug": "/modules/vla-pipelines/chapter-2-gpt-ros-bridge/",
+  "permalink": "/docs/modules/vla-pipelines/chapter-2-gpt-ros-bridge/",
+  "draft": false,
+  "editUrl": "https://github.com/maheenshah12/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course/docs/modules/vla-pipelines/chapter-2-gpt-ros-bridge/index.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "curriculumSidebar",
+  "previous": {
+    "title": "Chapter 1: Whisper Integration",
+    "permalink": "/docs/modules/vla-pipelines/chapter-1-whisper-integration/"
+  },
+  "next": {
+    "title": "Chapter 3: VLA Workflows",
+    "permalink": "/docs/modules/vla-pipelines/chapter-3-vla-workflows/"
+  }
+}

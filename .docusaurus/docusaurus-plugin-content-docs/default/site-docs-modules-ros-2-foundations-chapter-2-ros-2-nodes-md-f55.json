@@ -1,0 +1,27 @@
+{
+  "unversionedId": "modules/ros2-foundations/chapter-2-ros2-nodes",
+  "id": "modules/ros2-foundations/chapter-2-ros2-nodes",
+  "title": "Chapter 2: ROS 2 Nodes",
+  "description": "Objective",
+  "source": "@site/docs/modules/ros2-foundations/chapter-2-ros2-nodes.md",
+  "sourceDirName": "modules/ros2-foundations",
+  "slug": "/modules/ros2-foundations/chapter-2-ros2-nodes",
+  "permalink": "/docs/modules/ros2-foundations/chapter-2-ros2-nodes",
+  "draft": false,
+  "editUrl": "https://github.com/maheenshah12/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course/docs/modules/ros2-foundations/chapter-2-ros2-nodes.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "curriculumSidebar",
+  "previous": {
+    "title": "Chapter 1: Introduction to ROS 2",
+    "permalink": "/docs/modules/ros2-foundations/chapter-1-intro-ros2"
+  },
+  "next": {
+    "title": "Chapter 3: ROS 2 Actions",
+    "permalink": "/docs/modules/ros2-foundations/chapter-3-ros2-actions"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "unversionedId": "modules/digital-twin-simulation/intro",
+  "id": "modules/digital-twin-simulation/intro",
+  "title": "Digital Twin Simulation: Gazebo, Unity, and ROS 2 Integration",
+  "description": "Overview",
+  "source": "@site/docs/modules/digital-twin-simulation/intro.md",
+  "sourceDirName": "modules/digital-twin-simulation",
+  "slug": "/modules/digital-twin-simulation/intro",
+  "permalink": "/docs/modules/digital-twin-simulation/intro",
+  "draft": false,
+  "editUrl": "https://github.com/maheenshah12/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course/docs/modules/digital-twin-simulation/intro.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "sidebar_position": 8
+  },
+  "sidebar": "curriculumSidebar",
+  "previous": {
+    "title": "Chapter 3: ROS 2 Actions",
+    "permalink": "/docs/modules/ros2-foundations/chapter-3-ros2-actions"
+  },
+  "next": {
+    "title": "Chapter 1: Gazebo Basics",
+    "permalink": "/docs/modules/digital-twin-simulation/chapter-1-gazebo-basics/"
+  }
+}

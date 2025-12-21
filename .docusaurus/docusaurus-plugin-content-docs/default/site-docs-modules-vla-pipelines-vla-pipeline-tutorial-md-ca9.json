@@ -1,0 +1,18 @@
+{
+  "unversionedId": "modules/vla-pipelines/vla-pipeline-tutorial",
+  "id": "modules/vla-pipelines/vla-pipeline-tutorial",
+  "title": "VLA Pipeline Tutorial: Complete Voice-Controlled Robot",
+  "description": "Overview",
+  "source": "@site/docs/modules/vla-pipelines/vla-pipeline-tutorial.md",
+  "sourceDirName": "modules/vla-pipelines",
+  "slug": "/modules/vla-pipelines/vla-pipeline-tutorial",
+  "permalink": "/docs/modules/vla-pipelines/vla-pipeline-tutorial",
+  "draft": false,
+  "editUrl": "https://github.com/maheenshah12/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course/docs/modules/vla-pipelines/vla-pipeline-tutorial.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  }
+}

@@ -1,0 +1,17 @@
+fastapi>=0.104.1
+uvicorn[standard]
+python-dotenv
+openrouter
+qdrant-client
+psycopg2-binary
+sqlalchemy
+pydantic
+pydantic_settings
+requests
+tiktoken
+python-multipart
+python-jose[cryptography]
+passlib[bcrypt]
+markdown
+unstructured
+PyPDF2

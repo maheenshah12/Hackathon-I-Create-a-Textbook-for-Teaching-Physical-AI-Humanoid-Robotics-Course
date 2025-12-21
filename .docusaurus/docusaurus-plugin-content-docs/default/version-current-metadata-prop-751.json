@@ -1,0 +1,320 @@
+{
+  "pluginId": "default",
+  "version": "current",
+  "label": "Next",
+  "banner": null,
+  "badge": false,
+  "noIndex": false,
+  "className": "docs-version-current",
+  "isLast": true,
+  "docsSidebars": {
+    "curriculumSidebar": [
+      {
+        "type": "category",
+        "label": "Getting Started",
+        "items": [
+          {
+            "type": "link",
+            "label": "Physical AI Humanoid Robotics Curriculum",
+            "href": "/docs/intro",
+            "docId": "intro"
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "ROS2 Foundations",
+        "items": [
+          {
+            "type": "link",
+            "label": "ROS2 Foundations",
+            "href": "/docs/modules/ros2-foundations/intro",
+            "docId": "modules/ros2-foundations/intro"
+          },
+          {
+            "type": "link",
+            "label": "Chapter 1: Introduction to ROS 2",
+            "href": "/docs/modules/ros2-foundations/chapter-1-intro-ros2",
+            "docId": "modules/ros2-foundations/chapter-1-intro-ros2"
+          },
+          {
+            "type": "link",
+            "label": "Chapter 2: ROS 2 Nodes",
+            "href": "/docs/modules/ros2-foundations/chapter-2-ros2-nodes",
+            "docId": "modules/ros2-foundations/chapter-2-ros2-nodes"
+          },
+          {
+            "type": "link",
+            "label": "Chapter 3: ROS 2 Actions",
+            "href": "/docs/modules/ros2-foundations/chapter-3-ros2-actions",
+            "docId": "modules/ros2-foundations/chapter-3-ros2-actions"
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "Digital Twin Simulation",
+        "items": [
+          {
+            "type": "link",
+            "label": "Digital Twin Simulation: Gazebo, Unity, and ROS 2 Integration",
+            "href": "/docs/modules/digital-twin-simulation/intro",
+            "docId": "modules/digital-twin-simulation/intro"
+          },
+          {
+            "type": "link",
+            "label": "Chapter 1: Gazebo Basics",
+            "href": "/docs/modules/digital-twin-simulation/chapter-1-gazebo-basics/",
+            "docId": "modules/digital-twin-simulation/chapter-1-gazebo-basics/index"
+          },
+          {
+            "type": "link",
+            "label": "Chapter 2: Unity Digital Twin",
+            "href": "/docs/modules/digital-twin-simulation/chapter-2-unity-digital-twin/",
+            "docId": "modules/digital-twin-simulation/chapter-2-unity-digital-twin/index"
+          },
+          {
+            "type": "link",
+            "label": "Chapter 3: Advanced Simulation",
+            "href": "/docs/modules/digital-twin-simulation/chapter-3-advanced-sim/",
+            "docId": "modules/digital-twin-simulation/chapter-3-advanced-sim/index"
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "NVIDIA Isaac Perception",
+        "items": [
+          {
+            "type": "link",
+            "label": "NVIDIA Isaac Perception",
+            "href": "/docs/modules/nvidia-isaac-perception/intro",
+            "docId": "modules/nvidia-isaac-perception/intro"
+          },
+          {
+            "type": "link",
+            "label": "Chapter 1: Isaac Sim Basics",
+            "href": "/docs/modules/nvidia-isaac-perception/chapter-1-isaac-basics",
+            "docId": "modules/nvidia-isaac-perception/chapter-1-isaac-basics"
+          },
+          {
+            "type": "link",
+            "label": "Chapter 2: Visual Simultaneous Localization and Mapping (VSLAM)",
+            "href": "/docs/modules/nvidia-isaac-perception/chapter-2-vslam",
+            "docId": "modules/nvidia-isaac-perception/chapter-2-vslam"
+          },
+          {
+            "type": "link",
+            "label": "Chapter 3: Manipulation",
+            "href": "/docs/modules/nvidia-isaac-perception/chapter-3-manipulation",
+            "docId": "modules/nvidia-isaac-perception/chapter-3-manipulation"
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "VLA Pipelines",
+        "items": [
+          {
+            "type": "link",
+            "label": "VLA Pipelines: Vision-Language-Action Systems",
+            "href": "/docs/modules/vla-pipelines/intro",
+            "docId": "modules/vla-pipelines/intro"
+          },
+          {
+            "type": "link",
+            "label": "Chapter 1: Whisper Integration",
+            "href": "/docs/modules/vla-pipelines/chapter-1-whisper-integration/",
+            "docId": "modules/vla-pipelines/chapter-1-whisper-integration/index"
+          },
+          {
+            "type": "link",
+            "label": "Chapter 2: GPT-ROS Bridge",
+            "href": "/docs/modules/vla-pipelines/chapter-2-gpt-ros-bridge/",
+            "docId": "modules/vla-pipelines/chapter-2-gpt-ros-bridge/index"
+          },
+          {
+            "type": "link",
+            "label": "Chapter 3: VLA Workflows",
+            "href": "/docs/modules/vla-pipelines/chapter-3-vla-workflows/",
+            "docId": "modules/vla-pipelines/chapter-3-vla-workflows/index"
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      }
+    ]
+  },
+  "docs": {
+    "intro": {
+      "id": "intro",
+      "title": "Physical AI Humanoid Robotics Curriculum",
+      "description": "Welcome to the Physical AI Humanoid Robotics Curriculum! This comprehensive guide teaches students how to bridge AI models with physical robots, specifically humanoids.",
+      "sidebar": "curriculumSidebar"
+    },
+    "modules/digital-twin-simulation/chapter-1-gazebo-basics/index": {
+      "id": "modules/digital-twin-simulation/chapter-1-gazebo-basics/index",
+      "title": "Chapter 1: Gazebo Basics",
+      "description": "Overview",
+      "sidebar": "curriculumSidebar"
+    },
+    "modules/digital-twin-simulation/chapter-2-unity-digital-twin/index": {
+      "id": "modules/digital-twin-simulation/chapter-2-unity-digital-twin/index",
+      "title": "Chapter 2: Unity Digital Twin",
+      "description": "Overview",
+      "sidebar": "curriculumSidebar"
+    },
+    "modules/digital-twin-simulation/chapter-3-advanced-sim/index": {
+      "id": "modules/digital-twin-simulation/chapter-3-advanced-sim/index",
+      "title": "Chapter 3: Advanced Simulation",
+      "description": "Overview",
+      "sidebar": "curriculumSidebar"
+    },
+    "modules/digital-twin-simulation/intro": {
+      "id": "modules/digital-twin-simulation/intro",
+      "title": "Digital Twin Simulation: Gazebo, Unity, and ROS 2 Integration",
+      "description": "Overview",
+      "sidebar": "curriculumSidebar"
+    },
+    "modules/digital-twin-simulation/simulation-troubleshooting": {
+      "id": "modules/digital-twin-simulation/simulation-troubleshooting",
+      "title": "Simulation Troubleshooting Guide",
+      "description": "Overview"
+    },
+    "modules/digital-twin-simulation/simulation-validation-notes": {
+      "id": "modules/digital-twin-simulation/simulation-validation-notes",
+      "title": "Validation Notes: Simulation Code Examples",
+      "description": "Objective"
+    },
+    "modules/digital-twin-simulation/simulation-workflow-tutorial": {
+      "id": "modules/digital-twin-simulation/simulation-workflow-tutorial",
+      "title": "Simulation Workflow Tutorial: Complete Digital Twin System",
+      "description": "Overview"
+    },
+    "modules/nvidia-isaac-perception/chapter-1-isaac-basics": {
+      "id": "modules/nvidia-isaac-perception/chapter-1-isaac-basics",
+      "title": "Chapter 1: Isaac Sim Basics",
+      "description": "Objective",
+      "sidebar": "curriculumSidebar"
+    },
+    "modules/nvidia-isaac-perception/chapter-2-vslam": {
+      "id": "modules/nvidia-isaac-perception/chapter-2-vslam",
+      "title": "Chapter 2: Visual Simultaneous Localization and Mapping (VSLAM)",
+      "description": "Objective",
+      "sidebar": "curriculumSidebar"
+    },
+    "modules/nvidia-isaac-perception/chapter-3-manipulation": {
+      "id": "modules/nvidia-isaac-perception/chapter-3-manipulation",
+      "title": "Chapter 3: Manipulation",
+      "description": "Objective",
+      "sidebar": "curriculumSidebar"
+    },
+    "modules/nvidia-isaac-perception/intro": {
+      "id": "modules/nvidia-isaac-perception/intro",
+      "title": "NVIDIA Isaac Perception",
+      "description": "Overview",
+      "sidebar": "curriculumSidebar"
+    },
+    "modules/nvidia-isaac-perception/isaac-sim-tutorial-steps": {
+      "id": "modules/nvidia-isaac-perception/isaac-sim-tutorial-steps",
+      "title": "Isaac Sim Tutorial Steps: Setup and Basic Perception",
+      "description": "Objective"
+    },
+    "modules/nvidia-isaac-perception/isaac-troubleshooting": {
+      "id": "modules/nvidia-isaac-perception/isaac-troubleshooting",
+      "title": "Isaac Sim Troubleshooting Guide",
+      "description": "Common Issues and Solutions"
+    },
+    "modules/nvidia-isaac-perception/isaac-validation-notes": {
+      "id": "modules/nvidia-isaac-perception/isaac-validation-notes",
+      "title": "Validation Notes: Isaac Sim Code Examples",
+      "description": "Objective"
+    },
+    "modules/ros2-foundations/basic-ros2-tutorial-steps": {
+      "id": "modules/ros2-foundations/basic-ros2-tutorial-steps",
+      "title": "Basic ROS 2 Tutorial Steps",
+      "description": "Objective"
+    },
+    "modules/ros2-foundations/chapter-1-intro-ros2": {
+      "id": "modules/ros2-foundations/chapter-1-intro-ros2",
+      "title": "Chapter 1: Introduction to ROS 2",
+      "description": "Objective",
+      "sidebar": "curriculumSidebar"
+    },
+    "modules/ros2-foundations/chapter-2-ros2-nodes": {
+      "id": "modules/ros2-foundations/chapter-2-ros2-nodes",
+      "title": "Chapter 2: ROS 2 Nodes",
+      "description": "Objective",
+      "sidebar": "curriculumSidebar"
+    },
+    "modules/ros2-foundations/chapter-3-ros2-actions": {
+      "id": "modules/ros2-foundations/chapter-3-ros2-actions",
+      "title": "Chapter 3: ROS 2 Actions",
+      "description": "Objective",
+      "sidebar": "curriculumSidebar"
+    },
+    "modules/ros2-foundations/intro": {
+      "id": "modules/ros2-foundations/intro",
+      "title": "ROS2 Foundations",
+      "description": "Overview",
+      "sidebar": "curriculumSidebar"
+    },
+    "modules/ros2-foundations/ros2-troubleshooting": {
+      "id": "modules/ros2-foundations/ros2-troubleshooting",
+      "title": "ROS 2 Troubleshooting Guide",
+      "description": "Common Issues and Solutions"
+    },
+    "modules/ros2-foundations/validation-notes": {
+      "id": "modules/ros2-foundations/validation-notes",
+      "title": "Validation Notes: ROS 2 Code Examples",
+      "description": "Objective"
+    },
+    "modules/vla-pipelines/chapter-1-whisper-integration/index": {
+      "id": "modules/vla-pipelines/chapter-1-whisper-integration/index",
+      "title": "Chapter 1: Whisper Integration",
+      "description": "Overview",
+      "sidebar": "curriculumSidebar"
+    },
+    "modules/vla-pipelines/chapter-2-gpt-ros-bridge/index": {
+      "id": "modules/vla-pipelines/chapter-2-gpt-ros-bridge/index",
+      "title": "Chapter 2: GPT-ROS Bridge",
+      "description": "Overview",
+      "sidebar": "curriculumSidebar"
+    },
+    "modules/vla-pipelines/chapter-3-vla-workflows/index": {
+      "id": "modules/vla-pipelines/chapter-3-vla-workflows/index",
+      "title": "Chapter 3: VLA Workflows",
+      "description": "Overview",
+      "sidebar": "curriculumSidebar"
+    },
+    "modules/vla-pipelines/intro": {
+      "id": "modules/vla-pipelines/intro",
+      "title": "VLA Pipelines: Vision-Language-Action Systems",
+      "description": "Overview",
+      "sidebar": "curriculumSidebar"
+    },
+    "modules/vla-pipelines/vla-pipeline-tutorial": {
+      "id": "modules/vla-pipelines/vla-pipeline-tutorial",
+      "title": "VLA Pipeline Tutorial: Complete Voice-Controlled Robot",
+      "description": "Overview"
+    },
+    "modules/vla-pipelines/vla-troubleshooting": {
+      "id": "modules/vla-pipelines/vla-troubleshooting",
+      "title": "VLA Pipelines Troubleshooting Guide",
+      "description": "Overview"
+    },
+    "modules/vla-pipelines/vla-validation-notes": {
+      "id": "modules/vla-pipelines/vla-validation-notes",
+      "title": "Validation Notes: VLA Pipeline Code Examples",
+      "description": "Objective"
+    }
+  }
+}

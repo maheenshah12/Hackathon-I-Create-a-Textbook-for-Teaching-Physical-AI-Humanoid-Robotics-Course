@@ -1,0 +1,249 @@
+openapi: 3.0.0
+info:
+  title: RAG Chatbot API for Docusaurus Book
+  description: API for the RAG chatbot system embedded in Docusaurus book
+  version: 1.0.0
+servers:
+  - url: https://api.rag-chatbot.example.com
+    description: Production server
+  - url: http://localhost:8000
+    description: Development server
+
+paths:
+  /api/v1/chat/sessions:
+    post:
+      summary: Create a new chat session
+      description: Creates a new chat session for the user
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                user_id:
+                  type: string
+                  description: Optional user ID for logged-in users
+                  example: "user-123"
+      responses:
+        '201':
+          description: Session created successfully
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  session_id:
+                    type: string
+                    description: Unique session identifier
+                    example: "session-abc123"
+                  created_at:
+                    type: string
+                    format: date-time
+                    description: Session creation timestamp
+        '400':
+          description: Invalid request
+        '500':
+          description: Internal server error
+
+  /api/v1/chat/sessions/{session_id}/messages:
+    post:
+      summary: Send a message in a chat session
+      description: Sends a message to the chatbot and receives a response
+      parameters:
+        - name: session_id
+          in: path
+          required: true
+          schema:
+            type: string
+          description: Unique session identifier
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - message
+                - mode
+              properties:
+                message:
+                  type: string
+                  description: User's message/question
+                  example: "What is the main concept of this chapter?"
+                mode:
+                  type: string
+                  enum: [book_content, selected_text]
+                  description: Chat mode - either ask about book content or selected text only
+                  example: "book_content"
+                selected_text:
+                  type: string
+                  description: Text selected by user (required when mode is selected_text)
+                  example: "The main concept of this chapter is about..."
+                context:
+                  type: object
+                  description: Additional context information
+                  properties:
+                    current_page:
+                      type: string
+                      description: Current page URL or identifier
+                    section_title:
+                      type: string
+                      description: Current section title
+      responses:
+        '200':
+          description: Message processed successfully
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  response:
+                    type: string
+                    description: Chatbot's response
+                    example: "The main concept of this chapter is..."
+                  sources:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        source_path:
+                          type: string
+                          description: Path to the source content
+                        content_snippet:
+                          type: string
+                          description: Snippet of the source content
+                  timestamp:
+                    type: string
+                    format: date-time
+                    description: Response timestamp
+        '400':
+          description: Invalid request
+        '404':
+          description: Session not found
+        '500':
+          description: Internal server error
+
+  /api/v1/chat/sessions/{session_id}:
+    get:
+      summary: Get chat session details
+      description: Retrieves details about a specific chat session
+      parameters:
+        - name: session_id
+          in: path
+          required: true
+          schema:
+            type: string
+          description: Unique session identifier
+      responses:
+        '200':
+          description: Session details retrieved successfully
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  session_id:
+                    type: string
+                    description: Unique session identifier
+                  messages:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        id:
+                          type: string
+                          description: Message ID
+                        role:
+                          type: string
+                          enum: [user, assistant]
+                        content:
+                          type: string
+                          description: Message content
+                        timestamp:
+                          type: string
+                          format: date-time
+                        metadata:
+                          type: object
+                          description: Additional message metadata
+                  created_at:
+                    type: string
+                    format: date-time
+                    description: Session creation timestamp
+                  updated_at:
+                    type: string
+                    format: date-time
+                    description: Session last updated timestamp
+        '404':
+          description: Session not found
+        '500':
+          description: Internal server error
+
+  /api/v1/documents/ingest:
+    post:
+      summary: Ingest documents for RAG
+      description: Processes and ingests book documents for RAG functionality
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - source_path
+                - content
+              properties:
+                source_path:
+                  type: string
+                  description: Path to the source document
+                  example: "/docs/intro.md"
+                content:
+                  type: string
+                  description: Document content to be processed
+                metadata:
+                  type: object
+                  description: Additional metadata for the document
+      responses:
+        '200':
+          description: Documents ingested successfully
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    description: Processing status
+                    example: "success"
+                  processed_chunks:
+                    type: integer
+                    description: Number of content chunks processed
+                    example: 15
+                  document_id:
+                    type: string
+                    description: ID of the processed document
+        '400':
+          description: Invalid document format
+        '500':
+          description: Internal server error
+
+  /api/v1/health:
+    get:
+      summary: Health check
+      description: Checks the health status of the API
+      responses:
+        '200':
+          description: API is healthy
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    description: Health status
+                    example: "healthy"
+                  timestamp:
+                    type: string
+                    format: date-time
+                    description: Check timestamp

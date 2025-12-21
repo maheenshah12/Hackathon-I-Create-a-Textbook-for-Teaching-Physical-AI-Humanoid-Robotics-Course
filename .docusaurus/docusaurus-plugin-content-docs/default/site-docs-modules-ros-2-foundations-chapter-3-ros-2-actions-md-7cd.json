@@ -1,0 +1,27 @@
+{
+  "unversionedId": "modules/ros2-foundations/chapter-3-ros2-actions",
+  "id": "modules/ros2-foundations/chapter-3-ros2-actions",
+  "title": "Chapter 3: ROS 2 Actions",
+  "description": "Objective",
+  "source": "@site/docs/modules/ros2-foundations/chapter-3-ros2-actions.md",
+  "sourceDirName": "modules/ros2-foundations",
+  "slug": "/modules/ros2-foundations/chapter-3-ros2-actions",
+  "permalink": "/docs/modules/ros2-foundations/chapter-3-ros2-actions",
+  "draft": false,
+  "editUrl": "https://github.com/maheenshah12/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course/docs/modules/ros2-foundations/chapter-3-ros2-actions.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "curriculumSidebar",
+  "previous": {
+    "title": "Chapter 2: ROS 2 Nodes",
+    "permalink": "/docs/modules/ros2-foundations/chapter-2-ros2-nodes"
+  },
+  "next": {
+    "title": "Digital Twin Simulation: Gazebo, Unity, and ROS 2 Integration",
+    "permalink": "/docs/modules/digital-twin-simulation/intro"
+  }
+}

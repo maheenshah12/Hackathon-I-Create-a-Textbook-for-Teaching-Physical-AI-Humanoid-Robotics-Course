@@ -1,0 +1,18 @@
+{
+  "unversionedId": "modules/ros2-foundations/basic-ros2-tutorial-steps",
+  "id": "modules/ros2-foundations/basic-ros2-tutorial-steps",
+  "title": "Basic ROS 2 Tutorial Steps",
+  "description": "Objective",
+  "source": "@site/docs/modules/ros2-foundations/basic-ros2-tutorial-steps.md",
+  "sourceDirName": "modules/ros2-foundations",
+  "slug": "/modules/ros2-foundations/basic-ros2-tutorial-steps",
+  "permalink": "/docs/modules/ros2-foundations/basic-ros2-tutorial-steps",
+  "draft": false,
+  "editUrl": "https://github.com/maheenshah12/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course/docs/modules/ros2-foundations/basic-ros2-tutorial-steps.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  }
+}

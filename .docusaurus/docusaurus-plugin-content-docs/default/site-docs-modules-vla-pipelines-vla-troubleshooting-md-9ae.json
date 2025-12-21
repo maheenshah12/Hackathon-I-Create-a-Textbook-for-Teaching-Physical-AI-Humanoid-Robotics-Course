@@ -1,0 +1,18 @@
+{
+  "unversionedId": "modules/vla-pipelines/vla-troubleshooting",
+  "id": "modules/vla-pipelines/vla-troubleshooting",
+  "title": "VLA Pipelines Troubleshooting Guide",
+  "description": "Overview",
+  "source": "@site/docs/modules/vla-pipelines/vla-troubleshooting.md",
+  "sourceDirName": "modules/vla-pipelines",
+  "slug": "/modules/vla-pipelines/vla-troubleshooting",
+  "permalink": "/docs/modules/vla-pipelines/vla-troubleshooting",
+  "draft": false,
+  "editUrl": "https://github.com/maheenshah12/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course/docs/modules/vla-pipelines/vla-troubleshooting.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  }
+}

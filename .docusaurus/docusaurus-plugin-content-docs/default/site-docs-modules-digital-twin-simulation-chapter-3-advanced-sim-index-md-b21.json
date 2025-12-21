@@ -1,0 +1,27 @@
+{
+  "unversionedId": "modules/digital-twin-simulation/chapter-3-advanced-sim/index",
+  "id": "modules/digital-twin-simulation/chapter-3-advanced-sim/index",
+  "title": "Chapter 3: Advanced Simulation",
+  "description": "Overview",
+  "source": "@site/docs/modules/digital-twin-simulation/chapter-3-advanced-sim/index.md",
+  "sourceDirName": "modules/digital-twin-simulation/chapter-3-advanced-sim",
+  "slug": "/modules/digital-twin-simulation/chapter-3-advanced-sim/",
+  "permalink": "/docs/modules/digital-twin-simulation/chapter-3-advanced-sim/",
+  "draft": false,
+  "editUrl": "https://github.com/maheenshah12/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course/docs/modules/digital-twin-simulation/chapter-3-advanced-sim/index.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "curriculumSidebar",
+  "previous": {
+    "title": "Chapter 2: Unity Digital Twin",
+    "permalink": "/docs/modules/digital-twin-simulation/chapter-2-unity-digital-twin/"
+  },
+  "next": {
+    "title": "NVIDIA Isaac Perception",
+    "permalink": "/docs/modules/nvidia-isaac-perception/intro"
+  }
+}

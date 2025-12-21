@@ -1,55 +1,88 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+<!-- Sync Impact Report:
+Version change: 1.2.0 → 1.3.0
+Modified principles: "I. Technical Accuracy", "II. Clarity for Learning", "III. Practical and Hands-On Orientation", "IV. Consistency Across Chapters" (content refined)
+Added sections: IX. Workflow Compliance standards
+Removed sections: None
+Templates requiring updates: ✅ .specify/templates/plan-template.md, ✅ .specify/templates/spec-template.md, ✅ .specify/templates/tasks-template.md, ⚠ .specify/templates/commands/*.md
+Follow-up TODOs: None
+-->
+
+# AI/Spec-Driven Book Creation Constitution
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### I. Technical Accuracy
+All explanations, definitions, examples, and workflows must be technically correct and aligned with authoritative developer documentation. AI-generated content must be validated against official sources (Docusaurus docs, GitHub Pages docs, Spec-Kit Plus repo, Node.js documentation, etc.).
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### II. Clarity for Learning
+Writing must target beginners to intermediate developers. Concepts must be explained progressively, with simple language and layered depth. Every chapter should reinforce understanding through examples, diagrams, and checklists.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### III. Practical and Hands-On Orientation
+The book should focus on building, deploying, and maintaining a real-world documentation site using Docusaurus. Each section must contain step-by-step guides, code snippets, and commands that readers can follow directly.
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### IV. Consistency Across Chapters
+Terminology, command formatting, and explanation style must remain uniform throughout the book. All code blocks must be tested before inclusion.
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+## Key Standards
 
-### [PRINCIPLE_6_NAME]
+### V. Documentation Quality
+All steps must be validated in a real Docusaurus + GitHub Pages environment. Screenshots, examples, and folder structures must reflect actual project states.
 
+### VI. Source Verification
+Whenever referencing tools or frameworks, cite:
+- Official documentation
+- GitHub repositories
+- Verified technical blogs or RFCs
+No unverified claims or ambiguous instructions.
 
-[PRINCIPLE__DESCRIPTION]
+### VII. Style Guidelines
+Writing style: clear, concise, and first-person plural ("we"). Code formatting must follow proper syntax highlighting. Explanations must connect concepts to real usage scenarios.
 
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
+### VIII. Book Structure Standards
+Each chapter must include:
+- Objective
+- Explanation
+- Code examples
+- Common errors and troubleshooting
+- Summary
+- References (if needed)
 
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
+## Constraints
+Book Format:
+- Written in Markdown for Docusaurus
+- Must be compatible with Docusaurus v2
+- All assets stored inside /docs and /static folders
 
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
+Tone: instructional, accessible, developer-friendly
 
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+Content Type: must include tutorials, conceptual chapters, code walkthroughs, and deployment guides
+
+Tooling: Content must be generated using Spec-Kit Plus + Claude Code workflow
+
+Deployment: Final book must be deployable to GitHub Pages without errors
+
+## Success Criteria
+
+### Functional Output
+- The book builds successfully using npm run build
+- Deployment to GitHub Pages works flawlessly
+- No broken links in the generated site
+
+### Content Quality
+- Clear, actionable, and free of contradictions
+- Commands tested and verified
+- No outdated instructions
+
+### Learning Impact
+- A reader with basic programming knowledge can fully create and deploy their own Docusaurus site
+- Chapters build progressively from fundamentals to advanced topics
+
+### Workflow Compliance
+- All chapters generated with Spec-Kit Plus specs
+- Constitution principles followed throughout
+- Claude Code used for code generation and refactoring as needed
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
+This constitution governs all development and content creation for the AI/Spec-Driven Book Creation project. All PRs/reviews must verify compliance with these principles. Changes to this constitution require documented justification and approval from project maintainers.
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
-
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+**Version**: 1.3.0 | **Ratified**: 2025-12-07 | **Last Amended**: 2025-12-07

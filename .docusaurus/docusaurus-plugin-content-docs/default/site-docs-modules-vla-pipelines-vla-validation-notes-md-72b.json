@@ -1,0 +1,15 @@
+{
+  "unversionedId": "modules/vla-pipelines/vla-validation-notes",
+  "id": "modules/vla-pipelines/vla-validation-notes",
+  "title": "Validation Notes: VLA Pipeline Code Examples",
+  "description": "Objective",
+  "source": "@site/docs/modules/vla-pipelines/vla-validation-notes.md",
+  "sourceDirName": "modules/vla-pipelines",
+  "slug": "/modules/vla-pipelines/vla-validation-notes",
+  "permalink": "/docs/modules/vla-pipelines/vla-validation-notes",
+  "draft": false,
+  "editUrl": "https://github.com/maheenshah12/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course/docs/modules/vla-pipelines/vla-validation-notes.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

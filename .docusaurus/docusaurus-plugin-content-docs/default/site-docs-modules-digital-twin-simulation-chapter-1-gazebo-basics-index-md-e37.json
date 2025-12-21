@@ -1,0 +1,27 @@
+{
+  "unversionedId": "modules/digital-twin-simulation/chapter-1-gazebo-basics/index",
+  "id": "modules/digital-twin-simulation/chapter-1-gazebo-basics/index",
+  "title": "Chapter 1: Gazebo Basics",
+  "description": "Overview",
+  "source": "@site/docs/modules/digital-twin-simulation/chapter-1-gazebo-basics/index.md",
+  "sourceDirName": "modules/digital-twin-simulation/chapter-1-gazebo-basics",
+  "slug": "/modules/digital-twin-simulation/chapter-1-gazebo-basics/",
+  "permalink": "/docs/modules/digital-twin-simulation/chapter-1-gazebo-basics/",
+  "draft": false,
+  "editUrl": "https://github.com/maheenshah12/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course/docs/modules/digital-twin-simulation/chapter-1-gazebo-basics/index.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "curriculumSidebar",
+  "previous": {
+    "title": "Digital Twin Simulation: Gazebo, Unity, and ROS 2 Integration",
+    "permalink": "/docs/modules/digital-twin-simulation/intro"
+  },
+  "next": {
+    "title": "Chapter 2: Unity Digital Twin",
+    "permalink": "/docs/modules/digital-twin-simulation/chapter-2-unity-digital-twin/"
+  }
+}

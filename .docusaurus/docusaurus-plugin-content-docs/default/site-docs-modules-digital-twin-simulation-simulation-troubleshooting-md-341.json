@@ -1,0 +1,18 @@
+{
+  "unversionedId": "modules/digital-twin-simulation/simulation-troubleshooting",
+  "id": "modules/digital-twin-simulation/simulation-troubleshooting",
+  "title": "Simulation Troubleshooting Guide",
+  "description": "Overview",
+  "source": "@site/docs/modules/digital-twin-simulation/simulation-troubleshooting.md",
+  "sourceDirName": "modules/digital-twin-simulation",
+  "slug": "/modules/digital-twin-simulation/simulation-troubleshooting",
+  "permalink": "/docs/modules/digital-twin-simulation/simulation-troubleshooting",
+  "draft": false,
+  "editUrl": "https://github.com/maheenshah12/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course/docs/modules/digital-twin-simulation/simulation-troubleshooting.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  }
+}

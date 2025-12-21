@@ -1,0 +1,18 @@
+{
+  "unversionedId": "modules/nvidia-isaac-perception/isaac-troubleshooting",
+  "id": "modules/nvidia-isaac-perception/isaac-troubleshooting",
+  "title": "Isaac Sim Troubleshooting Guide",
+  "description": "Common Issues and Solutions",
+  "source": "@site/docs/modules/nvidia-isaac-perception/isaac-troubleshooting.md",
+  "sourceDirName": "modules/nvidia-isaac-perception",
+  "slug": "/modules/nvidia-isaac-perception/isaac-troubleshooting",
+  "permalink": "/docs/modules/nvidia-isaac-perception/isaac-troubleshooting",
+  "draft": false,
+  "editUrl": "https://github.com/maheenshah12/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course/docs/modules/nvidia-isaac-perception/isaac-troubleshooting.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 11,
+  "frontMatter": {
+    "sidebar_position": 11
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "unversionedId": "modules/nvidia-isaac-perception/chapter-3-manipulation",
+  "id": "modules/nvidia-isaac-perception/chapter-3-manipulation",
+  "title": "Chapter 3: Manipulation",
+  "description": "Objective",
+  "source": "@site/docs/modules/nvidia-isaac-perception/chapter-3-manipulation.md",
+  "sourceDirName": "modules/nvidia-isaac-perception",
+  "slug": "/modules/nvidia-isaac-perception/chapter-3-manipulation",
+  "permalink": "/docs/modules/nvidia-isaac-perception/chapter-3-manipulation",
+  "draft": false,
+  "editUrl": "https://github.com/maheenshah12/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course/docs/modules/nvidia-isaac-perception/chapter-3-manipulation.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 9,
+  "frontMatter": {
+    "sidebar_position": 9
+  },
+  "sidebar": "curriculumSidebar",
+  "previous": {
+    "title": "Chapter 2: Visual Simultaneous Localization and Mapping (VSLAM)",
+    "permalink": "/docs/modules/nvidia-isaac-perception/chapter-2-vslam"
+  },
+  "next": {
+    "title": "VLA Pipelines: Vision-Language-Action Systems",
+    "permalink": "/docs/modules/vla-pipelines/intro"
+  }
+}

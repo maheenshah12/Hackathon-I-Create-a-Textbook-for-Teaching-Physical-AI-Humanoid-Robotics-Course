@@ -1,0 +1,27 @@
+{
+  "unversionedId": "modules/nvidia-isaac-perception/intro",
+  "id": "modules/nvidia-isaac-perception/intro",
+  "title": "NVIDIA Isaac Perception",
+  "description": "Overview",
+  "source": "@site/docs/modules/nvidia-isaac-perception/intro.md",
+  "sourceDirName": "modules/nvidia-isaac-perception",
+  "slug": "/modules/nvidia-isaac-perception/intro",
+  "permalink": "/docs/modules/nvidia-isaac-perception/intro",
+  "draft": false,
+  "editUrl": "https://github.com/maheenshah12/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course/docs/modules/nvidia-isaac-perception/intro.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "curriculumSidebar",
+  "previous": {
+    "title": "Chapter 3: Advanced Simulation",
+    "permalink": "/docs/modules/digital-twin-simulation/chapter-3-advanced-sim/"
+  },
+  "next": {
+    "title": "Chapter 1: Isaac Sim Basics",
+    "permalink": "/docs/modules/nvidia-isaac-perception/chapter-1-isaac-basics"
+  }
+}

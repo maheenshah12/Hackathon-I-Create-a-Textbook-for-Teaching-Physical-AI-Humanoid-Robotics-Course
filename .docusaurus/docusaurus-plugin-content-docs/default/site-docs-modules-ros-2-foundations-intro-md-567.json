@@ -1,0 +1,27 @@
+{
+  "unversionedId": "modules/ros2-foundations/intro",
+  "id": "modules/ros2-foundations/intro",
+  "title": "ROS2 Foundations",
+  "description": "Overview",
+  "source": "@site/docs/modules/ros2-foundations/intro.md",
+  "sourceDirName": "modules/ros2-foundations",
+  "slug": "/modules/ros2-foundations/intro",
+  "permalink": "/docs/modules/ros2-foundations/intro",
+  "draft": false,
+  "editUrl": "https://github.com/maheenshah12/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course/docs/modules/ros2-foundations/intro.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "curriculumSidebar",
+  "previous": {
+    "title": "Physical AI Humanoid Robotics Curriculum",
+    "permalink": "/docs/intro"
+  },
+  "next": {
+    "title": "Chapter 1: Introduction to ROS 2",
+    "permalink": "/docs/modules/ros2-foundations/chapter-1-intro-ros2"
+  }
+}

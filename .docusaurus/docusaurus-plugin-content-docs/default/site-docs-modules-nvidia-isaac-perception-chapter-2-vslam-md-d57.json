@@ -1,0 +1,27 @@
+{
+  "unversionedId": "modules/nvidia-isaac-perception/chapter-2-vslam",
+  "id": "modules/nvidia-isaac-perception/chapter-2-vslam",
+  "title": "Chapter 2: Visual Simultaneous Localization and Mapping (VSLAM)",
+  "description": "Objective",
+  "source": "@site/docs/modules/nvidia-isaac-perception/chapter-2-vslam.md",
+  "sourceDirName": "modules/nvidia-isaac-perception",
+  "slug": "/modules/nvidia-isaac-perception/chapter-2-vslam",
+  "permalink": "/docs/modules/nvidia-isaac-perception/chapter-2-vslam",
+  "draft": false,
+  "editUrl": "https://github.com/maheenshah12/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course/docs/modules/nvidia-isaac-perception/chapter-2-vslam.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "sidebar_position": 8
+  },
+  "sidebar": "curriculumSidebar",
+  "previous": {
+    "title": "Chapter 1: Isaac Sim Basics",
+    "permalink": "/docs/modules/nvidia-isaac-perception/chapter-1-isaac-basics"
+  },
+  "next": {
+    "title": "Chapter 3: Manipulation",
+    "permalink": "/docs/modules/nvidia-isaac-perception/chapter-3-manipulation"
+  }
+}

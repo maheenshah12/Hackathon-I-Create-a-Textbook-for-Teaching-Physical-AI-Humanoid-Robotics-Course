@@ -1,0 +1,15 @@
+{
+  "unversionedId": "modules/ros2-foundations/validation-notes",
+  "id": "modules/ros2-foundations/validation-notes",
+  "title": "Validation Notes: ROS 2 Code Examples",
+  "description": "Objective",
+  "source": "@site/docs/modules/ros2-foundations/validation-notes.md",
+  "sourceDirName": "modules/ros2-foundations",
+  "slug": "/modules/ros2-foundations/validation-notes",
+  "permalink": "/docs/modules/ros2-foundations/validation-notes",
+  "draft": false,
+  "editUrl": "https://github.com/maheenshah12/Hackathon-I-Create-a-Textbook-for-Teaching-Physical-AI-Humanoid-Robotics-Course/docs/modules/ros2-foundations/validation-notes.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}
